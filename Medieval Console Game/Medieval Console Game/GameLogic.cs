@@ -217,7 +217,8 @@ namespace Medieval_Console_Game
 
         public static void LifePath()
         {
-            
+            GameHeavyLogic gameHeavyLogic = new GameHeavyLogic();
+            gameHeavyLogic.LifePath();
         }
     }
 
